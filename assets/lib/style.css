@@ -144,7 +144,8 @@ table style
 }
 .res_mainT{
 padding: .10rem .45rem;
-height: 49vh;
+height: 60vh;
+border-bottom: 2px solid #c3c3c3;
 }
 .sub_T{
  margin-bottom: 0px;
