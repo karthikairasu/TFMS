@@ -1,15 +1,19 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+body{
+  font-family: "72-Regular"!important;
+  background: #ebf0f4;
+}
 .mlr_15{
   margin: 0px -15px;
 }
 @font-face {
-    font-family: 'CoHeadlineW23-ArabicBold';
-    src: url('CoHeadlineW23ArabicBold.ttf');
+    font-family: '72-Regular';
+    src: url('../72/72-Regular.ttf');
 }
-.ff-arabic{
-  font-family: "CoHeadlineW23-ArabicBold"!important;
+.ff-72{
+  font-family: "72-Regular"!important;
   text-shadow: 0px 0px 0px rgba(0,0,0,0.3);
 }
 .ff-tahoma{
@@ -48,34 +52,38 @@
 .bg_logo{
   background: linear-gradient(#97ACC1, #c2cfde, #F2F4F7, #9DB3CA);
 }
-.navbar_2{
-  position: fixed;
-  top: 71px;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  background: #2D699C;
-  box-shadow: 0px 0px 0px 0 rgba(0,0,0,0.16), 0px 0px 1px 0 rgba(0,0,0,0.12);
+.navbar_2 {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    background: linear-gradient(#81acd8, transparent);
+    box-shadow: 0px 0px 0px 0 rgb(219 230 245), 0px 0px 0px 0 rgb(180 201 222);
 }
 .main{
   margin-top: 112px;
 }
 .main_left{
-  height: 100%;
+  height: 90%;
   width: 20%;
   background: linear-gradient(95deg, #274285, #3557A1);
   position: fixed;
   left: 0px;
-  top: 112px;
-  box-shadow: inset 0px 0px 6px 2px rgb(33 56 107), inset 0px 0px 6px 9px rgb(27 52 109);
+  top: 43px;
+  box-shadow: 0px 0px 2px 0px rgb(117 117 117), 0px 0px 2px 0px rgb(125 125 125);
+  margin: .3rem .6rem;
+  border-radius: 10px;
+  border: 3px solid #e7edf2;
 }
 .main_right{
   height: 100%;
-  width: 80%;
+  width: 77%;
   background: #EBF0F4;
   position: fixed;
   right: 0px;
-  top: 112px;
+  top: 43px;
+  margin: .3rem .6rem;
 }
 .main_left .nav .nav-link{
   color: #fff;
@@ -92,7 +100,7 @@
   box-shadow: inset 0px 0px 3px 3px #0288D1, inset 0px 0px 4px 5px #039BE5;
 }
 .main_left .nav{
-  padding: 10px 20px;
+  padding: 10px 10px;
 }
 .main_right .main_card .card-header{
   margin-bottom: 0;
@@ -105,12 +113,14 @@
   background: #f1f1f1;
 }
 .br_tb{
-  border: 4px groove #777777;
+  border: 2px groove #5587b9;
   border-style: groove none;
+  border-radius: 0px!important;
 }
 .br_t{
-  border: 4px groove #777777;
+  border: 2px groove #5587b9;
   border-style: groove none none none;
+  border-radius: 0px!important;
 }
 /*----------------------------------
 table style
