@@ -37,6 +37,7 @@ body{
 .fs-18{font-size: 18px!important;}
 .fs-20{font-size: 20px!important;}
 .fw-400{font-weight: 400;}
+.fw-600{font-weight: 600!important;}
 .fw-800{font-weight: 800;}
 .fw-bold{font-weight: bold;}
 /*----------------------------------
@@ -92,7 +93,7 @@ body{
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   padding: .5rem .5rem;
-  font-size: 15px;
+  font-size: 14px;
 }
 .main_left .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
@@ -106,11 +107,13 @@ body{
   margin-bottom: 0;
   background-color: #B4C9DE;
   border: 1px solid rgb(169 196 222);
-  box-shadow: inset 0px 0px 6px 2px rgb(146 181 216), inset 0px 0px 6px 9px rgb(197 215 232);
+  /* box-shadow: inset 0px 0px 6px 2px rgb(146 181 216), inset 0px 0px 6px 9px rgb(197 215 232); */
+  color: #173579;
 }
 .main_right .main_card{
   border: 1px solid rgb(127 169 210);
   background: #f1f1f1;
+  height: 90vh;
 }
 .br_tb{
   border: 2px groove #5587b9;
@@ -121,6 +124,15 @@ body{
   border: 2px groove #5587b9;
   border-style: groove none none none;
   border-radius: 0px!important;
+}
+.badge-light {
+    color: #4f76ce !important;
+    background-color: #ffffff !important;
+}
+.body-title{
+  background: #E1EBEF;
+  box-shadow: inset 0px 0px 2px 0px rgb(225 235 239), inset 0px 0px 2px 0px rgb(170 198 227);
+  padding: 3px 5px;
 }
 /*----------------------------------
 table style
@@ -133,23 +145,25 @@ height: 49vh;
  margin-bottom: 0px;
 }
 .res_mainT .sub_T td, .res_mainT .sub_T th {
-  padding: .55rem;
+  padding: .35rem;
   vertical-align: middle;
   border-top: 1px solid #dee2e6;
   text-align: center;
   white-space: nowrap;
+  background: white;
 }
 .sub_T thead tr:nth-child(1) th {
   position: sticky;
   top: 0px;
   z-index: 999;
-  outline: 1px solid #8e8c8c;
+  outline: 2px solid rgb(225 235 239);
   font-size: 13px;
-  box-shadow: 0px -3px 4px 4px #8e8e8e;
+  box-shadow: 0px -3px 4px 4px #B3B3B3;
+  font-weight: 600;
 }
 .sub_T .head_1 th{
-background-color: rgba(226 226 226);
+background-color: rgb(179 179 179);
 }
 .sub_T td, .sub_T th {
-border: 1px solid #c3c3c3;
+border: 2px solid #c3c3c3;
 }
