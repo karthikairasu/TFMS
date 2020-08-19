@@ -88,7 +88,8 @@
 }
 .main_left .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   color: #fff;
-  background-color: #8DB0D7;
+  background-color: #03A9F4;
+  box-shadow: inset 0px 0px 3px 3px #0288D1, inset 0px 0px 4px 5px #039BE5;
 }
 .main_left .nav{
   padding: 10px 20px;
@@ -99,10 +100,17 @@
   border: 1px solid rgb(169 196 222);
   box-shadow: inset 0px 0px 6px 2px rgb(146 181 216), inset 0px 0px 6px 9px rgb(197 215 232);
 }
-
 .main_right .main_card{
   border: 1px solid rgb(127 169 210);
   background: #f1f1f1;
+}
+.br_tb{
+  border: 4px groove #777777;
+  border-style: groove none;
+}
+.br_t{
+  border: 4px groove #777777;
+  border-style: groove none none none;
 }
 /*----------------------------------
 table style
