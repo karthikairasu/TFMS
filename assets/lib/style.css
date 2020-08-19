@@ -137,6 +137,11 @@ body{
 /*----------------------------------
 table style
 -----------------------------------*/
+.form-control-sm{
+  border: 1px solid #b3b3b3!important;
+  border-radius: 0px;
+  line-height: 1;
+}
 .res_mainT{
 padding: .10rem .45rem;
 height: 49vh;
